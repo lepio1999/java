@@ -1,0 +1,29 @@
+package java_day11_inheritance상속사용;
+
+public class person {
+	
+	public void  말하기() {
+		System.out.println( "말한다2");
+	}	
+	public void 먹기() {
+		System.out.println("먹기");
+	}
+	
+	public void 걷기() {
+		System.out.println(" 걷기");
+	}
+	
+	public void 잠자기() {
+		System.out.println(" 잠자기");
+	}
+	
+	public void 공부하기() {
+		System.out.println(" 공부하기");
+	}
+	
+	public void 가르치기() {
+		System.out.println(" 가르치기");
+	}
+}
+
+
