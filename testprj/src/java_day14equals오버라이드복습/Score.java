@@ -1,4 +1,4 @@
-package java_day13성적관리;
+package java_day14equals오버라이드복습;
 
 //성적데이타를 처리하기 위한 자료형 필요
 public class Score {
@@ -87,7 +87,13 @@ public class Score {
 		this.result = result;
 	}
 	
-
+	public boolean equals(Score obj) {
+		boolean result  = false;
+		if(this.name.equals(obj.name))
+			result = true;
+		return result;
+	}
+	
 	
 	
 
